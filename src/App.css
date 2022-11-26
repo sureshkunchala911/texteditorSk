@@ -1,0 +1,131 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.bg-container {
+  background-color: #25262c;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  background-color: #1b1c22;
+  width: 90%;
+  height: 95%;
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image {
+  width: 400px;
+  height: 400px;
+  margin-left: 30px;
+}
+
+.editor-container {
+  background-color: #25262c;
+  height: 100%;
+  width: 45%;
+  border-radius: 10px;
+  border: 1px solid #334155;
+  overflow: hidden;
+}
+
+.fonts-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+.main-heading {
+  font-size: 35px;
+  color: #f8fafc;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.bold-font {
+  font-size: 25px;
+  color: #f8fafc;
+  margin-right: 15px;
+}
+
+.italic-font {
+  font-size: 22px;
+  margin-right: 15px;
+  color: #f8fafc;
+}
+
+.underline-font {
+  font-size: 22px;
+  color: #f8fafc;
+}
+
+.button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.hr-line {
+  border: 1px solid #334155;
+  border-top: none;
+}
+
+.text-area {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 20px;
+  color: #f8fafc;
+  height: 100%;
+  font-weight: 400;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.bold-icon {
+  color: #faff00;
+}
+
+.italic-icon {
+  color: #faff00;
+}
+
+.underline-icon {
+  color: #faff00;
+}
+
+.list {
+  list-style-type: none;
+}
